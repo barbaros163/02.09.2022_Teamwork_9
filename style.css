@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #f2994a;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.container {
+  padding: 1rem;
+  width: 50%;
+  height: 50%;
+}
+
+.title {
+  padding-bottom: 1rem;
+}
+
+small {
+  text-decoration: line-through;
+}
+
+.button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.b2,
+.b5,
+.b1,
+.b3,
+.b4,
+.b6 {
+  border: none;
+}
+
+.b1,
+.b3,
+.b4,
+.b6 {
+  background-color: #dbdbdb;
+  border-radius: 6px;
+}
+.btn-group {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.span {
+  color: orange;
+}
+
+.small {
+  color: black;
+}
+
+.buttons {
+  background-color: #eeeeee;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.img {
+  border-radius: 15px;
+}
